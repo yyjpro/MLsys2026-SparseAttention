@@ -21,3 +21,7 @@ RUN apt update && apt install -y software-properties-common \
     && rm -rf /var/cache/apt/archives/*
 
 RUN pip3 install flashinfer-bench modal tomli
+
+RUN cd /root && git lfs install && git clone https://huggingface.co/datasets/flashinfer-ai/mlsys26-contest
+
+ENV FIB_DATASET_PATH /root/mlsys26-contest
