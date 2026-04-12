@@ -5,4 +5,4 @@ author = "sm120"              # Team/author name
 
 [build]
 language = "cuda"               # triton | cuda
-entry_point = "kernel"            # Kernel function name
+entry_point = "kernel.cu::kernel"            # Kernel function name
