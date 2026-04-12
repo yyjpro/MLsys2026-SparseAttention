@@ -1,6 +1,6 @@
 [solution]
 name = "sm120-solution-v1"      # Solution name
-definition = "sparse_attention"          # Track: fused_moe | sparse_attention | gated_delta_net
+definition = "dsa_sparse_attention_h16_ckv512_kpe64_topk2048_ps64"          # Track: fused_moe | sparse_attention | gated_delta_net
 author = "sm120"              # Team/author name
 
 [build]
