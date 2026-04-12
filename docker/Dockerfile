@@ -9,6 +9,7 @@ RUN apt update && apt install -y software-properties-common \
     vim \
     sudo \
     git \
+    git-lfs \
     python3 \
     python3-pip \
     wget \
@@ -18,3 +19,5 @@ RUN apt update && apt install -y software-properties-common \
     unzip \
     gdb \
     && rm -rf /var/cache/apt/archives/*
+
+RUN pip3 install flashinfer-bench modal
