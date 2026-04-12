@@ -218,4 +218,4 @@ __marimo__/
 
 # user
 .idea
-scripts/flashinfer-bench
+scripts/flashinfer_bench
