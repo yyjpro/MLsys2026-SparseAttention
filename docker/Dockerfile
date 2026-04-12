@@ -20,4 +20,4 @@ RUN apt update && apt install -y software-properties-common \
     gdb \
     && rm -rf /var/cache/apt/archives/*
 
-RUN pip3 install flashinfer-bench modal
+RUN pip3 install flashinfer-bench modal tomli
